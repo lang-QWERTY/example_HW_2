@@ -9,11 +9,11 @@ public class TestBase {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
-        Configuration.browser = "chrome";
-        Configuration.browserVersion = "latest";
+        //Configuration.browser = "chrome";
+        //Configuration.browserVersion = "latest";
         Configuration.baseUrl = "https://demoqa.com";
         //Configuration.pageLoadStrategy = "eager" ;
-        Configuration.timeout = 10000; // defaut 4000;
+        Configuration.timeout = 3000; // defaut 4000;
     }
     @AfterEach
     void afterEach() {
